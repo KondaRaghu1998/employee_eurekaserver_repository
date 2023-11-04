@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: 192.168.43.6
+    
+    
